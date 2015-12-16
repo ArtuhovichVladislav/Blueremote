@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainMenu">
+    <ListView
+        android:id="@+id/listDiscovered"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_weight="50"
+        android:gravity="center_vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay" />
+</menu>

@@ -1,0 +1,71 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blueremote.blueremote.PresentationActivity"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/powerpoint_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/startPwrPoint"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/rewind_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/backBtn"
+        android:layout_row="1"
+        android:layout_column="0"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/forw_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/forwardBtn"
+        android:layout_row="1"
+        android:layout_column="2"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/from_begin_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/fromStartBtn"
+        android:layout_row="2"
+        android:layout_column="0"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/from_now_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/fromNowBtn"
+        android:layout_row="2"
+        android:layout_column="1"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/exit_fullscreen_btn"
+        android:background="@android:color/transparent"
+        android:id="@+id/exitBtn"
+        android:layout_row="2"
+        android:layout_column="2"/>
+
+</GridLayout>

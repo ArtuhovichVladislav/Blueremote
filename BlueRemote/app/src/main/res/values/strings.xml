@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BlueRemote</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_keyboard_activity">keyboard_activity</string>
+    <string name="title_activity_presentation_activity">presentation_activity</string>
+    <string name="title_activity_media_activity">media_activity</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mouse">MouseActivity</string>
+    <string name="title_activity_shortcats">ShortcatsActivity</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4">
+
+    <Button android:text="copy"
+        android:layout_gravity="fill"
+        android:id="@+id/ctrl_c"
+        android:layout_row="0"
+        android:layout_height="110dp"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="paste"
+        android:layout_gravity="fill"
+        android:id="@+id/ctrl_v"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="cut"
+        android:layout_gravity="fill"
+        android:id="@+id/ctrl_x"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffefdff"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="select\n all"
+        android:layout_gravity="fill"
+        android:id="@+id/ctrl_a"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="show\n desktop"
+        android:layout_gravity="fill"
+        android:id="@+id/win_d"
+        android:layout_row="2"
+        android:layout_height="110dp"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="full\n screen"
+        android:layout_gravity="fill"
+        android:id="@+id/win_up"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="minimize\nwindow"
+        android:layout_gravity="fill"
+        android:id="@+id/win_down"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="esc"
+        android:layout_gravity="fill"
+        android:id="@+id/esc_btn"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F1"
+        android:layout_gravity="fill"
+        android:id="@+id/f1"
+        android:layout_row="3"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F2"
+        android:layout_gravity="fill"
+        android:id="@+id/f2"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp" />
+
+    <Button android:text="F3"
+        android:layout_gravity="fill"
+        android:id="@+id/f3"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F4"
+        android:layout_gravity="fill"
+        android:id="@+id/f4"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F5"
+        android:layout_gravity="fill"
+        android:id="@+id/f5"
+        android:layout_row="4"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F6"
+        android:layout_gravity="fill"
+        android:id="@+id/f6"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F7"
+        android:layout_gravity="fill"
+        android:id="@+id/f7"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F8"
+        android:layout_gravity="fill"
+        android:id="@+id/f8"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F9"
+        android:layout_gravity="fill"
+        android:id="@+id/f9"
+        android:layout_row="5"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_margin="3dp"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F10"
+        android:layout_gravity="fill"
+        android:id="@+id/f10"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F11"
+        android:layout_gravity="fill"
+        android:id="@+id/f11"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+    <Button android:text="F12"
+        android:layout_gravity="fill"
+        android:id="@+id/f12"
+        android:background="@drawable/shape"
+        android:layout_margin="3dp"
+        android:textColor="#fffafff2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_width="70dp"
+        android:width="@android:dimen/app_icon_size" />
+
+</GridLayout>
